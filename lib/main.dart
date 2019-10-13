@@ -40,6 +40,15 @@ class HomePage extends StatelessWidget {
                           child: Container(
                             width: 200,
                             height: 200,
+                            decoration: BoxDecoration(
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black54,
+                                  blurRadius: 5,
+                                  offset: Offset(10, 0)
+                                ),
+                              ],
+                            ),
                             child: ClipRect(
                               child: Transform.scale(
                                 scale: 1.5,
