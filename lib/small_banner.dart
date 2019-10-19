@@ -68,12 +68,14 @@ Widget smallBanner(_img) {
                 image: NetworkImage(twitter, scale: 1),
               ),
             ),
-            Center(
+            Positioned(
+              left: 53,
+              top: 53,
               child: Transform.rotate(
                 angle: 0.785,
                 child: Container(
-                  width: 200,
-                  height: 200,
+                  width: 188,
+                  height: 188,
                   decoration: BoxDecoration(
                     boxShadow: [
                       BoxShadow(
@@ -97,12 +99,14 @@ Widget smallBanner(_img) {
                 ),
               ),
             ),
-            Center(
+            Positioned(
+              left: 66,
+              top: 66,
               child: Transform.rotate(
                 angle: 0.785,
                 child: Container(
-                  width: 175,
-                  height: 175,
+                  width: 163,
+                  height: 163,
                   decoration: BoxDecoration(
                     border: Border.all(
                       color: Colors.white,
